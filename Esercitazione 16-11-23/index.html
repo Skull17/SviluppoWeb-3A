@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="email" >Email: </label>
+            <input type="email" name="email" id="email" placeholder="example@email.it">
+        </div>
+        <div>
+            <label for="pswd">Password: </label>
+            <input type="password" name="pswd" id="pswd" placeholder="password">
+        </div>
+        <div>
+            <label for="genere">Seleziona genere musicale:</label>
+            <input type="radio" name="genere" value="rock" id="Rock" checked="checked"> Rock
+            <input type="radio" name="genere" value="pop" id="Pop"> Pop
+            <input type="radio" name="genere" value="jazz" id="Jazz"> Jazz
+        </div>
+        <div>
+            <label for="data_di_nascita">Data di nascita</label>
+            <input type="date" name="data_di_nascita" id="data_di_nascita">
+        </div>
+        <div>
+            <label for="service">Seleziona i tuoi servizi preferiti</label>
+            <input type="checkbox" name="service" value="spotify" id="spotify">Spotify
+            <input type="checkbox" name="service" value="lastfm" id="lastfm">lastfm
+            <input type="checkbox" name="service" value="itunes" id="itunes">itunes
+            <input type="checkbox" name="service" value="altro" id="altro">altro
+        </div>
+        <div>
+            <label for="sesso">Sesso:</label>
+            <select name="sesso" id="sesso">
+                <option value="Maschio">Maschio</option>
+                <option value="Femmina">Femmina</option>
+                <option value="ND">ND</option>
+            </select>
+        </div>
+        <div>
+            <label for="colore">Colore:</label>
+            <input type="color" name="colore" id="colore">
+        </div>
+    </form>
+</body>
+</html>

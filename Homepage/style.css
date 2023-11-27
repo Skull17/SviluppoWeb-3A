@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Kanit;
+    src: url(Kanit-Regular.ttf);
+}
+
+body {
+    font-family: Kanit;
+}
+
+header {
+    color: #ffffff;
+    text-align: center;
+    padding: 16px;
+    background-color: orange;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px; /* Ridotto il padding del contenuto principale */
+    text-align: center;
+}
+
+.buttons {
+    /* Modificato il padding e aggiunto uno sfondo per separare i pulsanti dal resto del contenuto */
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.button_languages {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    text-decoration: none; /* Aggiunto per rimuovere il sottolineato nei link */
+    margin: 5px; /* Aggiunto margine tra i pulsanti */
+}
+
+footer {
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+    position: fixed; /* Aggiunto per fissare il piè di pagina in basso */
+    width: 100%;
+    bottom: 0;
+    color: white;
+}

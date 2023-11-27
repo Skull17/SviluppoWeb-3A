@@ -1,0 +1,11 @@
+#style_css {
+    color: blueviolet;
+}
+
+div {
+    border: 1px solid black;
+}
+
+div .paragrafo_div {
+    color: red;
+}

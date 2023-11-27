@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Indice Ricetta</title> 
+    <!-- Ho innestato il tag <style> per dire che tutto ciò che sta all'interno del tag <main> deve avere la famiglia di font Arial, Helvetica, sans-serif. -->
+    <!-- main {} è il selettore dove all'interno si inseriscono tutti i parametri dello stile. -->
+    <!-- Questo per non riscrivere più volte il parametro font-family in ogni tag. -->
+    <style>
+        main {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <!-- color - Applica il colore del testo -->
+        <!-- background-color - Applica il colore allo sfondo del testo -->
+        <!-- font-size - Stabilisce una grandezza, in questo caso in pixel (px), al testo -->
+        <h1 style="
+            color: red;
+            background-color: aquamarine;
+            font-size: 50px;
+            ">Pasta al Pomodoro</h1>
+        <h3>Descrizione</h3><hr>
+        <p>La pasta al pomodoro, è un primo piatto della cucina italiana, formato da pasta condita con salsa di pomodoro e foglie di basilico.</p>
+        <h3>Ingredienti</h3><hr>
+        <ul>
+            <li><a href="#pasta">Pasta</a></li>
+            <li><a href="#pomodoro">Pomodoro</a></li>
+            <li><a href="#sale">Sale</a></li>
+            <li><a href="#basilico">Basilico</a></li>
+        </ul>
+        <h3>Procedimento</h3><hr>
+        <ul>
+            <li>Cuoci la pasta al dente in acqua salata.</li>
+            <li>Prepara un sugo al pomodoro.</li>
+            <li>Aggiungi sale, pepe e basilico al sugo.</li>
+            <li>Mescola la pasta cotta con il sugo.</li>
+        </ul>
+        <div>
+            <h3 id="pasta">Pasta</h3><hr>
+            <img src="../Img/Pasta.jpg" alt="Immagine Pasta non caricata" width="275px" height="180">>
+            <p><a href="https://it.wikipedia.org/wiki/Pasta" target="_blank">La Pasta</a> è un alimento a base di farina di diversa estrazione, tipico delle varie cucine regionali d'Italia.</p>
+        </div><hr>
+        <div>
+            <h3 id="pomodoro">Pomodoro</h3><hr>
+            <img src="../Img/pomodoro.jpg" alt="Immagine Pasta non caricata" width="275px" height="180">
+            <p><a href="https://it.wikipedia.org/wiki/Salsa_di_pomodoro" target="_blank">La salsa di Pomodoro</a> è un alimento a base di pomodoro, tipico delle varie cucine regionali d'Italia.</p>
+        </div><hr>
+        <div>
+            <h3 id="sale">Sale</h3><hr>
+            <img src="../Img/sale.jpg" alt="Immagine del sale non caricata" width="275px" height="180">>
+            <p><a href="https://it.wikipedia.org/wiki/Sale_da_cucina">Il sale da cucina</a> è un ingrediente di cucina, costituito quasi completamente da cloruro di sodio.</p>
+        </div><hr>
+        <div>
+            <h3 id="basilico">Basilico</h3><hr>
+            <img src="../Img/basilico.jpg" alt="Immagine del sale non caricata" width="275px" height="180">
+            <p><a href="https://it.wikipedia.org/wiki/Ocimum_basilicum">Il Basilico</a> è una pianta aromatica utilizzata in cucina.</p>
+        </div><hr>
+    </main>    
+</body>
+</html>

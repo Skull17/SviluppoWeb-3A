@@ -1,0 +1,27 @@
+body {
+    /* Con font-family si applica il font Arial a tutti gli elementi della pagina. */
+    /* Se Arial non fosse caricato dal browser, si passa a Helvetica e se anch'esso non lo fosse si passa a sans-serif. */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 300px;
+}
+
+/* Stile dei tag del form con la classe 'input' */
+.input {
+    margin-bottom: 10px; /* Margine inferiore di 10 pixel per separare gli elementi e rendere meno appiccicato il tutto. */
+    margin-right: 5.1px;
+    border-radius: 5px; /* Aggiunge un bordo arrotondato di 5 pixel agli input. */
+    padding: 8px; /* Aggiungi un padding per migliorare l'estetica. */
+    border: 1px solid #000000; /* Aggiungi un bordo per evidenziare ulteriormente gli input */
+}
+
+/* Stile dei tag del form con la classe 'seleziona' */
+.seleziona {
+    margin-bottom: 10px;
+    margin-right: 5.1px;
+    border-radius: 5px;
+    padding: 7.3px;
+    border: 1px solid #000000;
+}
